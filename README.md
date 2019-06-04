@@ -1,50 +1,44 @@
 # eslint-plugin-echobind-api
 
-Echobind&#39;s recommended eslint settings for Node API projects
+Echobind's recommended eslint rules and configs
 
 ## Installation
 
 You'll first need to install [ESLint](http://eslint.org):
 
 ```
-$ npm i eslint --save-dev
+$ yarn add eslint --dev
 ```
 
-Next, install `eslint-plugin-echobind-api`:
+Next, install `eslint-plugin-echobind`:
 
 ```
-$ npm install eslint-plugin-echobind-api --save-dev
+$ yarn add eslint-plugin-echobind --dev
 ```
 
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-echobind-api` globally.
+**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-echobind` globally.
 
 ## Usage
 
-Add `echobind-api` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Eslint configs come bundled with this package. To use one, add it to the extends option in `.eslintrc.js`. For example, the following will use the React config:
 
-```json
-{
-    "plugins": [
-        "echobind-api"
-    ]
-}
+```js
+module.exports = {
+  extends: ['plugin:echobind/react']
+};
 ```
 
-
-Then configure the rules you want to use under the rules section.
-
-```json
-{
-    "rules": {
-        "echobind-api/rule-name": 2
-    }
-}
+If working on a Node project, use the node config:
+```js
+module.exports = {
+  extends: ['plugin:echobind/node']
+};
 ```
 
-## Supported Rules
-
-* Fill in provided rules here
-
+## Provided Configs
+This plugin provides the following configs:
+* react: Use this for React projects with TypeScript
+* node: Use this for Node projects with TypeScript
 
 
 
