@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-echobind",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Echobind's recommended eslint settings",
   "keywords": [
     "eslint",
