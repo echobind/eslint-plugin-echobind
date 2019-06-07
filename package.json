@@ -10,7 +10,7 @@
   "author": "Chris Ball",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha tests --recursive"
+    "test": "jest"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^1.9.0",
@@ -23,9 +23,11 @@
     "prettier": "^1.17.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-jest": "^24.8.0",
     "eslint": "~3.9.1",
-    "mocha": "^3.1.2",
-    "np": "^5.0.2"
+    "jest": "^24.8.0"
   },
   "engines": {
     "node": ">=0.10.0"
