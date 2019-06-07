@@ -1,4 +1,4 @@
-# eslint-plugin-echobind-api
+# eslint-plugin-echobind
 
 Echobind's recommended eslint rules and configs
 

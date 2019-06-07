@@ -1,4 +1,4 @@
-import reactConfig from '../../lib/configs/react';
+const reactConfig = require('../../lib/configs/react');
 
 describe('react config', () => {
   test('it loads', () => {

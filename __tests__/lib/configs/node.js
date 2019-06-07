@@ -1,4 +1,4 @@
-import nodeConfig from '../../lib/configs/node';
+const nodeConfig = require('../../lib/configs/node');
 
 describe('node config', () => {
   test('it loads', () => {
