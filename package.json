@@ -13,6 +13,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-community/eslint-config": "^0.0.5",
     "@typescript-eslint/eslint-plugin": "^1.9.0",
     "@typescript-eslint/parser": "^1.9.0",
     "babel-eslint": "^10.0.1",
