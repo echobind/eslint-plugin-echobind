@@ -7,13 +7,13 @@ Echobind's recommended eslint rules and configs
 You'll first need to install [ESLint](http://eslint.org):
 
 ```
-$ yarn add eslint --dev
+$ yarn add eslint
 ```
 
 Next, install `eslint-plugin-echobind`:
 
 ```
-$ yarn add eslint-plugin-echobind --dev
+$ yarn add eslint-plugin-echobind
 ```
 
 **Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-echobind` globally.
@@ -36,10 +36,11 @@ module.exports = {
 ```
 
 ## Provided Configs
+
 This plugin provides the following configs:
-* react: Use this for React projects with TypeScript
-* node: Use this for Node projects with TypeScript
 
-
+* [React](./lib/configs/react.js): Use this for React projects with TypeScript
+* [NodeJS](./lib/configs/node.js): Use this for Node projects with TypeScript
+* [React Native](./lib/configs/react-native.js): Use this for React Native projects with TypeScript
 
 
