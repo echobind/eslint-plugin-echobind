@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/echobind/eslint-plugin-echobind.svg?style=svg&circle-token=ad097295050dc3b5ebc7d29dde39ed8d1d566364)](https://circleci.com/gh/echobind/eslint-plugin-echobind)
+
 # eslint-plugin-echobind
 
 Echobind's recommended eslint rules and configs
