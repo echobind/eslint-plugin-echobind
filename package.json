@@ -30,7 +30,7 @@
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
     "babel-jest": "^24.8.0",
-    "eslint": "~6.5.1",
+    "eslint": "~6.6.0",
     "jest": "^24.8.0"
   },
   "engines": {
