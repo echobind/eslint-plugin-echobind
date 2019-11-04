@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-echobind",
-  "version": "0.1.0",
+  "version": "0.0.0-development",
   "description": "Echobind's recommended eslint settings",
   "keywords": [
     "eslint",
@@ -10,7 +10,8 @@
   "author": "Chris Ball",
   "main": "lib/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
     "@react-native-community/eslint-config": "^0.0.5",
@@ -31,10 +32,15 @@
     "@babel/preset-env": "^7.4.5",
     "babel-jest": "^24.8.0",
     "eslint": "~6.6.0",
-    "jest": "^24.8.0"
+    "jest": "^24.8.0",
+    "semantic-release": "^15.13.30"
   },
   "engines": {
     "node": ">=0.10.0"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/echobind/eslint-plugin-echobind.git"
+  }
 }
