@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/echobind/eslint-plugin-echobind.svg?style=svg&circle-token=ad097295050dc3b5ebc7d29dde39ed8d1d566364)](https://circleci.com/gh/echobind/eslint-plugin-echobind)
+[![Test](https://github.com/echobind/eslint-plugin-echobind/actions/workflows/test.yml/badge.svg)](https://github.com/echobind/eslint-plugin-echobind/actions/workflows/test.yml)
 
 # eslint-plugin-echobind
 
@@ -26,14 +26,15 @@ Eslint configs come bundled with this package. To use one, add it to the extends
 
 ```js
 module.exports = {
-  extends: ['plugin:echobind/react']
+  extends: ["plugin:echobind/react"],
 };
 ```
 
 If working on a Node project, use the node config:
+
 ```js
 module.exports = {
-  extends: ['plugin:echobind/node']
+  extends: ["plugin:echobind/node"],
 };
 ```
 
@@ -41,8 +42,6 @@ module.exports = {
 
 This plugin provides the following configs:
 
-* [React](./lib/configs/react.js): Use this for React projects with TypeScript
-* [NodeJS](./lib/configs/node.js): Use this for Node projects with TypeScript
-* [React Native](./lib/configs/react-native.js): Use this for React Native projects with TypeScript
-
-
+- [React](./lib/configs/react.js): Use this for React projects with TypeScript
+- [NodeJS](./lib/configs/node.js): Use this for Node projects with TypeScript
+- [React Native](./lib/configs/react-native.js): Use this for React Native projects with TypeScript
